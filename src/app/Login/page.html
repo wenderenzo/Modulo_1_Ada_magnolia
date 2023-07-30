@@ -1,49 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magnolia :: Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <section>
-        <div class="left-side">
-            <div class="left-side logo-formulario">
-                <div>
-                    <img src="./img/2logo.svg" alt="logotipo magnolia">
-                </div>
-                <div>
-                    <form action="#">
-                        <fieldset>
-                            <label for="email">E-mail</label>
-                            <input type="email" name="email" id="e1">
-                            <label for="password">Senha</label>
-                            <input type="password" name="password" id="p1">
-                        </fieldset>
-                        <button type="submit">Entrar</button>
-                    </form>
-                </div>
-                <div class="reaver-acesso">
-                    <div>
-                        <a href="#">Esqueceu a senha?</a>
-                    </div>
-                    <div class="novo-user">
-                        <p>Não possui conta?</p>
-                        <a href="#">Cadastro</a>
-                    </div>
-                </div>
+      <div></div>
+      <div class="background">
+        <div class="logo-formulario">
+          <div>
+            <img src="./img/2logo.svg" alt="logotipo magnolia" />
+          </div>
+          <div>
+            <form action="https://localhost:3000" method="post">
+              <fieldset>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="e1" />
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="p1" />
+              </fieldset>
+              <button type="submit">Entrar</button>
+            </form>
+          </div>
+          <div class="reaver-acesso">
+            <div>
+              <a href="#">Esqueceu a senha?</a>
             </div>
+            <div class="novo-user">
+              <p>Não possui conta?</p>
+              <a href="#">Cadastro</a>
+            </div>
+          </div>
         </div>
-        <div class="right-side">
-            <span>
-                <p>Login</p>
-                <p>Bem-vindo</p>
-            </span>
-        </div>
+      </div>
     </section>
-</body>
-
+  </body>
 </html>
