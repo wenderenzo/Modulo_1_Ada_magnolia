@@ -1,6 +1,6 @@
 import { BsInstagram, BsTwitter } from 'react-icons/bs';
 import { BiLogoGmail } from 'react-icons/bi';
-export default function Footer() {
+export function Footer() {
     return (
         <footer className="bg-[#46362B] text-[#EEB960]">
             <div className="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row divide-gray-400">
