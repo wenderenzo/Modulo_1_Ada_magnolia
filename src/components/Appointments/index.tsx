@@ -22,7 +22,7 @@ const appointments = [
 
 export default function Appointments() {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 bg-[#46362B] p-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 bg-[#46362B] px-12 py-32">
             {appointments.map((appointment) => (
                 <div className="col-span-1 flex flex-col items-center justify-center p-8">
                     <appointment.icon className="text-[#EEB960]" size={100} />
