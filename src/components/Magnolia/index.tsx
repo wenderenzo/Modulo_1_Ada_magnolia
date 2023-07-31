@@ -5,7 +5,7 @@ const flower = Indie_Flower({
 });
 export default function Magnolia() {
     return (
-        <div className={`flex flex-col justify-center items-center py-36 ${flower.className}`}>
+        <div id="inicio" className={`flex flex-col justify-center items-center py-36 ${flower.className}`}>
             <div className="flex items-center gap-3">
             <hr className="my-8 w-10 md:w-40 h-[2px] bg-[#EEB960] border-0" />
             <p className={`text-4xl text-[#46362B]`}>Magnólia - A Delicadeza em Flor</p>

@@ -1,28 +1,28 @@
-import { AiOutlineHome } from 'react-icons/ai';
-import { BsPerson } from 'react-icons/bs';
-import { BsFlower1 } from 'react-icons/bs';
-import { BsFolder } from 'react-icons/bs';
 
 const menu = {
     "title": "Magnolia",
     "menuItems": [
       {
         "id": "inicio",
+        "href": "#inicio",
         "icon": "AiOutlineHome",
         "label": "Inicio"
       },
       {
         "id": "sobre",
+        "href": "#sobre",
         "icon": "BsFolder",
         "label": "Sobre nós"
       },
       {
         "id": "produtos",
+        "href": "Products",
         "icon": "BsFlower1",
         "label": "Produtos"
       },
       {
         "id": "membros",
+        "href": "#membros",
         "icon": "BsPerson",
         "label": "Membros"
       }
@@ -39,7 +39,7 @@ export function Header() {
           <ul className='flex list-none gap-4'>
             {menu.menuItems.map((menuItem) => (
               <li key={menuItem.id}>
-                <a href={`#${menuItem.id}`} className='flex items-center gap-x-2 text-xl hover:text-[#EEB960]'>
+                <a href={`${menuItem.href}`} className='flex items-center gap-x-2 text-xl hover:text-[#EEB960]'>
                   {menuItem.label}
                 </a>
               </li>
