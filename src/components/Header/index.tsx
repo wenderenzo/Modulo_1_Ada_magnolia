@@ -4,7 +4,7 @@ const menu = {
     "menuItems": [
       {
         "id": "inicio",
-        "href": "#inicio",
+        "href": "/",
         "icon": "AiOutlineHome",
         "label": "Inicio"
       },
