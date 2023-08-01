@@ -47,7 +47,7 @@ const teamData = [
 
 export default function Team() {
     return (
-        <section id='sobre' className="py-6 text-gray-800 bg-gray-100">
+        <section id='membros' className="py-6 text-gray-800 bg-gray-100">
             <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
                 <p className="p-2 text-sm font-medium tracking text-center uppercase">Desenvolvedores</p>
                 <h1 className="text-4xl font-bold leading text-center sm:text-5xl">As pessoas por trás das cenas</h1>

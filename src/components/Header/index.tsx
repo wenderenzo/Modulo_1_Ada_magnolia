@@ -10,7 +10,7 @@ const menu = {
       },
       {
         "id": "sobre",
-        "href": "#sobre",
+        "href": "#inicio",
         "icon": "BsFolder",
         "label": "Sobre nós"
       },
